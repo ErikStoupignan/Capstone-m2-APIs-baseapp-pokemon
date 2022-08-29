@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Name of the project:
+# Capstone 2 - API's Webapp
 
 ## Built With
 
@@ -46,6 +46,12 @@ To get a local copy up and running it, follow these simple steps.
 For educational purpose only, use it as a guideline.
 
 ## Authors
+
+👤 **Daniel González Sierra**
+
+- GitHub: [@dgonzalesi](https://github.com/dgonzalesi/)
+- Twitter: [@dgonzalesi](https://twitter.com/dgonzalesi/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-g-sierra-60472719/)
 
 👤 **Erik Stoupignan Sánchez Beltrán**
 

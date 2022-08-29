@@ -1,5 +1,5 @@
 {
-  "name": "template-webpack-jest",
+  "name": "capstone-module-2-apis-baseapp-pokemon",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
@@ -11,7 +11,8 @@
     "watch": "jest --watch *.js"
   },
   "keywords": [],
-  "author": "Erik Stoupignan Sánchez Beltrán",
+  "author-1": "Erik Stoupignan Sánchez Beltrán",
+  "author-2": "Daniel González Sierra",
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.18.6",
@@ -41,5 +42,13 @@
     "gh-pages": "^4.0.0",
     "lodash": "^4.17.21"
   },
-  "main": "webpack.config.js"
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikStoupignan/Capstone-m2-APIs-baseapp-pokemon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ErikStoupignan/Capstone-m2-APIs-baseapp-pokemon/issues"
+  },
+  "homepage": "https://github.com/ErikStoupignan/Capstone-m2-APIs-baseapp-pokemon#readme"
 }
