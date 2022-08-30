@@ -7,6 +7,10 @@
   margin: none;
 }
 
+body {
+  box-sizing: border-box;
+}
+
 .main {
   background: rgb(3, 3, 3);
 }
