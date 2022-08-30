@@ -4,17 +4,20 @@
   --margin-cards: 5px 0;
 }
 
-.popUp-window {
+.popUp-comments {
   width: 100%;
   height: 100vh;
   position: fixed;
   z-index: 9000;
   background-color: rgba(255, 0, 0, 0.498);
   backdrop-filter: blur(100px);
-  position: fixed;
   display: flex;
   justify-content: center; 
   top: 0;
+}
+
+.display-none {
+  display: none;
 }
 
 .x-close:hover {

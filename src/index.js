@@ -13,12 +13,12 @@ document.body.addEventListener('click', (e) => {
   // Say the id of the button 
   if(regexBtnCom.test(id)) { 
     console.log(id);
-    document.getElementById('popUp-comments').classList.toggle('popUp-window');
+    document.getElementById('popUp-menu').classList.toggle('display-none');
   } 
 
   // Point to the x on the popUp menu
   if(id === closeModalId) {
-    document.getElementById('popUp-comments').classList.toggle('popUp-window');
+    document.getElementById('popUp-menu').classList.toggle('display-none');
   }
 
   // Recovery the data from the inputs on the popUp menu
