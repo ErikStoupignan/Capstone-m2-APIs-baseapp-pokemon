@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center; 
   top: 0;
-  /* display: none; */
+  display: none;
 }
 
 /* Desktop version */
