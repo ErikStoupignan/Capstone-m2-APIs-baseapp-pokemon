@@ -17,6 +17,13 @@
   top: 0;
 }
 
+.x-close:hover {
+  cursor: pointer;
+  color: rgb(0, 21, 255);
+  transform: scale(1.2);
+  text-shadow: 0 0 10px rgb(7, 7, 7);
+}
+
 /* Desktop version */
 @media only screen and (min-width: 770px) {
   /* Container the info about cards */
@@ -168,7 +175,7 @@
     height: 40%;
   }
 
-  #btn-submit {
+  .btn-submit {
     width: 50%;
     height: 15%;
     font-size: 25px;
@@ -176,7 +183,7 @@
     cursor: pointer;
   }
 
-  #btn-submit:active {
+  .btn-submit:active {
     background-color: green;
     color: white;
   }
@@ -336,7 +343,7 @@
     height: 30%;
   }
 
-  #btn-submit {
+  .btn-submit {
     width: 50%;
     height: 25%;
     font-size: 25px;
@@ -344,7 +351,7 @@
     cursor: pointer;
   }
 
-  #btn-submit:active {
+  .btn-submit:active {
     background-color: green;
     color: white;
   }
