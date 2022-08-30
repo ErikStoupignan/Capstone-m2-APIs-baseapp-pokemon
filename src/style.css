@@ -1,8 +1,13 @@
-/* stylelint-disable */
+@import url('http://fonts.cdnfonts.com/css/serious');
 * {
-    border: none;
-    padding: none;
-    list-style: none;
+  border: none;
+  padding: none;
+  list-style: none;
+  margin: none;
+}
+
+.main {
+  background: rgb(0, 0, 0);
 }
 
 .navbar-container {
@@ -16,15 +21,101 @@
 }
 
 #nav-logo {
-    height: 70px;
+  height: 70px;
 }
 
 #counter-nav {
-    display:flex;
+  display:flex;
 }
 
 .counter-text {
-    color: #fff;
-    padding-left: 10px;
-    padding-right: 10px;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.card {
+  max-width: 30%;
+  min-width: 25%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.pokemon-img {
+  max-width: 150px;
+  border-radius: 30px;
+}
+
+.likes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 30px 1px 20px;
+  border: 5px solid #242424;
+  width: 100%;
+  border-radius: 20px;
+  /* background-color: rgb(0, 0, 0); */
+  background-color: #ffcc01;
+}
+
+.comment-btn {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+  background-color: #DC143C;
+  border:  3px solid#ffcc01;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'serious1', sans-serif;
+}
+
+.pokemon-text {
+  font-family: 'serious1', sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+.like-btn {
+    color: #242424;
+    font-size: 2rem;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 15px;
+    justify-content: space-around;
+}
+
+.water {
+    background-color: #3399fe;
+}
+
+.fire {
+    background-color: #ef8200;
+}
+
+.earth {
+    background-color: #8d615b;
+}
+
+.top-background {
+    min-width: 100%;
+    max-height: 50%;
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.text-div {
+  display: flex;
 }
