@@ -4,7 +4,7 @@
   --margin-cards: 5px 0;
 }
 
-#popUp-comments {
+.popUp-window {
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -15,7 +15,6 @@
   display: flex;
   justify-content: center; 
   top: 0;
-  /* display: none; */
 }
 
 /* Desktop version */
