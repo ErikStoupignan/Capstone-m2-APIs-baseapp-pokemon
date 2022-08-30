@@ -95,8 +95,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  margin: 15px;
   justify-content: space-around;
+  padding-top: 1%;
+  padding-bottom: 2%;
 }
 
 .water {
