@@ -5,12 +5,13 @@ import './css/popUp-menu.css';
 document.body.addEventListener('click', (e) => {
   const {id} = e.target;
   console.log('Id del elemento seleccionado:',id);
-  const regex =  /(?<=button)\d+$/;
+  const regexBtnCom =  /(?<=button)\d+$/;
+  const regexLike =  /(?<=likeIcon)\d+$/;
   const closeModalId = 'xmodal';
   const submitbtn = 'btnSubmit';
 
   // Say the id of the button 
-  if(regex.test(id)) { 
+  if(regexBtnCom.test(id)) { 
     console.log(id);
     document.getElementById('popUp-comments').classList.toggle('popUp-window');
   } 
@@ -32,8 +33,16 @@ document.body.addEventListener('click', (e) => {
     console.log('name:', inputName, 'comment:',inputText);
   }
 
+  // Read the like Icon
+  if(regexLike.test(id)) {
+    const like = document.getElementById(`${id}`);
+    like.style.color= 'red';
+    console.log('Like en la tarjeta número:', id , like);
+  }
+
   return null;
 });
+
 
 
 
