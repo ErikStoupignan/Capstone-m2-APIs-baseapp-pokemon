@@ -8,7 +8,7 @@
 }
 
 .main {
-  background: rgb(0, 0, 0);
+  background: rgb(3, 3, 3);
 }
 
 .navbar-container {
@@ -19,6 +19,7 @@
   align-items: center;
   padding: 0 20px;
   flex-direction: row;
+  color: red;
 }
 
 #nav-logo {
