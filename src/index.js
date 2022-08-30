@@ -1,6 +1,7 @@
 import './style.css';
 import './css/pokeball.css';
 import './css/popUp-menu.css';
+import updateCounter from './modules/PokemonCounter.js';
 
 document.body.addEventListener('click', (e) => {
   const { id } = e.target;
@@ -40,3 +41,5 @@ document.body.addEventListener('click', (e) => {
     console.log('Like en la tarjeta número:', id, like);
   }
 });
+
+updateCounter();
