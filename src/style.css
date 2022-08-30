@@ -1,2 +1,30 @@
-
 /* stylelint-disable */
+* {
+    border: none;
+    padding: none;
+    list-style: none;
+}
+
+.navbar-container {
+  background-color: #DC143C;
+  border-bottom: 10px solid #ffcc01;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-direction: row;
+}
+
+#nav-logo {
+    height: 70px;
+}
+
+#counter-nav {
+    display:flex;
+}
+
+.counter-text {
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
