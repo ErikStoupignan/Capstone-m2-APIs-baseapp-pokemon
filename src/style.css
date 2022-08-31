@@ -84,11 +84,20 @@ body {
   font-family: 'serious1', sans-serif;
   color: rgb(0, 0, 0);
   font-size: 2rem;
+  margin: 10px;
 }
 
 .like-btn {
   color: #242424;
   font-size: 2rem;
+}
+
+.pokemon-likes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .main-container {
@@ -108,8 +117,32 @@ body {
   background-color: #ef8200;
 }
 
-.earth {
+.rock {
   background-color: #8d615b;
+}
+
+.grass {
+  background-color: #7ac74c;
+}
+
+.normal {
+  background-color: #a8a878;
+}
+
+.bug {
+  background-color: #a8b820;
+}
+
+.electric {
+  background-color: #f7d02c;
+}
+
+.psychic {
+  background-color: #f95587;
+}
+
+.fighting {
+  background-color: #c22e28;
 }
 
 .top-background {
@@ -124,6 +157,7 @@ body {
 
 .text-div {
   display: flex;
+  flex-direction: column;
 }
 
 footer {
