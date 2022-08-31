@@ -9,7 +9,7 @@ const cardConstructor = (name, img, index) => {
                             <p class="pokemon-text">100</p>
                         </div>
                     </div>
-                    <i id="likeIcon1" class="far fa-thumbs-up like-btn"></i>
+                    <i id="likeIcon${index}" class="far fa-thumbs-up like-btn"></i>
                 </div>
                 <button id="button${index}" type="submit" class="comment-btn">Comment</button>`;
   return htmlElement;
