@@ -1,5 +1,6 @@
 const cardConstructor = (name, img, index) => {
-  const htmlElement = `<div class="top-background fire"><img class="pokemon-img" src="${img}" alt="Bulbasaur"></div>
+  const htmlElement = `<div class="top-background fire">
+  <img class="pokemon-img" src="${img}" alt="Bulbasaur"></div>
                 <div class="likes">
                     <div class="text-div">
                         <p class="pokemon-text">${name}</p>
