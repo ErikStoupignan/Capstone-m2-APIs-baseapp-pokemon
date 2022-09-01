@@ -1,7 +1,12 @@
 
 /* stylelint-disable */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 :root {
   --margin-cards: 5px 0;
+}
+
+li {
+  font-family: 'serious1', sans-serif;
 }
 
 .popUp-comments {
@@ -22,9 +27,19 @@
 
 .x-close:hover {
   cursor: pointer;
-  color: rgb(0, 21, 255);
+  color: rgb(0, 0, 0);
   transform: scale(1.2);
-  text-shadow: 0 0 10px rgb(7, 7, 7);
+  text-shadow: 0 0 20px rgb(247, 4, 4);
+}
+
+#counter-comments {
+  font-size: 20px;
+  font-family: 'serious1', sans-serif;
+  color: #fff;
+}
+
+#xmodal {
+  color: #fff;
 }
 
 /* Desktop version */
@@ -36,7 +51,7 @@
     border: none;
     border-radius: 15px;
     box-shadow: 0 0 15px black;
-    background-color: aqua;
+    background-color: #083D77;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -44,6 +59,7 @@
     margin-top: 3%;
     padding-top: 2%;
     position: relative;
+    border: #ffcc01 7px solid;
   }
 
   .container-wrap {
@@ -59,7 +75,7 @@
     height: 95%;
   }
 
-  /* Container img and name of the pokemon */
+  /* Container img and name of the pokemon HERE IS THE BACKGROUND OF THE IMAGE */
   .card-top {
     display: flex;
     flex-direction: column;
@@ -69,27 +85,31 @@
     width: 80%;
     height: 100%;
     grid-area: img;
-    background-color: rgba(255, 217, 0, 0.206);
+    /* background-color: rgb(255, 0, 0); */
     border-radius: 150px 0 125px 0;
   }
 
   .name-pokemon-card {
     font-size: 30px;
-    padding: 0;
+    padding-top:30px;
     margin: 0;
+    font-family: 'serious1', sans-serif;
   }
 
   .x-close {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    font-size: 30px;
-    font-weight: bold;
-    right: 20px;
-    top: 10px;
+    font-size: 45px;
+    right: 15px;
+    top: 15px;
   }
 
   .img-card {
     width: 100%;
-    box-shadow: 0 0 15px black;
     border-radius: 15px;
     max-width: 200px; 
     
@@ -148,6 +168,7 @@
 
   .comments-list li {
     font-size: 20px;
+    color: #fff;
   }
 
   /* form to add comments */
@@ -164,24 +185,37 @@
   }
 
   .form-title {
-    font-size: 30px;
+    font-size: 2.5rem;
     margin: 0 auto;
+    font-family: 'serious1', sans-serif;
+    color: #fff;
   }
 
   .input-text {
     width: 75%;
     height: 15%;
+    color: #fff;
+    font-family: 'serious1', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 15px;
   }
 
   .input-comment {
     width: 99%;
     height: 40%;
+    font-family: 'serious1', sans-serif;
+    border-radius: 15px;
   }
 
   .btn-submit {
-    width: 50%;
-    height: 15%;
-    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    background-color: #dc143c;
+    border: 3px solid#ffcc01;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'serious1', sans-serif;
     box-shadow: 2px 2px 2px black;
     cursor: pointer;
   }
@@ -195,13 +229,14 @@
     border: none;
     padding: 5px;
     font-size: 15px;
-    border: 2px solid #000;
+    border: 4px solid #ffcc01;
   }
 
   ::placeholder {
     position: absolute;
     top: 5px;
     left: 5px;
+    padding-top: 7px;
   }
 }
 
@@ -224,6 +259,7 @@
     justify-content: flex-start;
     align-items: center;
     margin-top: 5%;
+    border: #ffcc01 5px solid;
   }
 
   .container-wrap {
@@ -251,6 +287,7 @@
     font-size: 30px;
     padding: 0;
     margin: 0;
+    font-family: 'serious1', sans-serif;
   }
 
   .x-close {
@@ -301,10 +338,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .title-comments {
-    font-size: 20px;
   }
 
   .comments-list {

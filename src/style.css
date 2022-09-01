@@ -42,7 +42,7 @@ body {
 
 .card {
   max-width: 30%;
-  min-width: 25%;
+  min-width: 350px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
@@ -143,6 +143,42 @@ body {
 
 .fighting {
   background-color: #c22e28;
+}
+
+.dark {
+  background-color: #705848;
+}
+
+.poison {
+  background-color: #a33ea1;
+}
+
+.ground {
+  background-color: #e2bf65;
+}
+
+.flying {
+  background-color: #a98ff3;
+}
+
+.ghost {
+  background-color: #735797;
+}
+
+.ice {
+  background-color: #aefef6;
+}
+
+.fair {
+  background-color: #d5d5d5;
+}
+
+.dragon {
+  background-color: #7366d6;
+}
+
+.steel {
+  background-color: #b7b7ce;
 }
 
 .top-background {
