@@ -10,7 +10,6 @@ const cardsBuild = () => {
       name.then((data) => {
         const newDiv = document.createElement('div');
         newDiv.classList.add('card');
-        console.log(data.types[0].type.name);
         newDiv.innerHTML = cardConstructor(data.name,
           data.sprites.other.dream_world.front_default, index);
 
@@ -25,12 +24,10 @@ const cardsBuild = () => {
           case 'grass':
             newDiv.children[0].classList.add('grass');
             newDiv.children[0].classList.remove('fire');
-            newDiv.children[0].classList.remove('water');
             break;
           case 'electric':
             newDiv.children[0].classList.add('electric');
             newDiv.children[0].classList.remove('fire');
-            newDiv.children[0].classList.remove('water');
             break;
           case 'psychic':
             newDiv.children[0].classList.add('psychic');
@@ -60,9 +57,26 @@ const cardsBuild = () => {
             newDiv.children[0].classList.add('rock');
             newDiv.children[0].classList.remove('fire');
             break;
+          case 'ghost':
+            newDiv.children[0].classList.add('ghost');
+            newDiv.children[0].classList.remove('fire');
+            break;
+          case 'dragon':
+            newDiv.children[0].classList.add('dragon');
+            newDiv.children[0].classList.remove('fire');
+            break;
+          case 'dark':
+            newDiv.children[0].classList.add('dark');
+            newDiv.children[0].classList.remove('fire');
+            break;
+          case 'steel':
+            newDiv.children[0].classList.add('steel');
+            newDiv.children[0].classList.remove('fire');
+            break;
           default:
             newDiv.children[0].classList.add('normal');
             newDiv.children[0].classList.remove('fire');
+            break;
         }
         mainContainer.appendChild(newDiv);
       });

@@ -59,7 +59,7 @@
     height: 95%;
   }
 
-  /* Container img and name of the pokemon */
+  /* Container img and name of the pokemon HERE IS THE BACKGROUND OF THE IMAGE */
   .card-top {
     display: flex;
     flex-direction: column;
@@ -69,14 +69,15 @@
     width: 80%;
     height: 100%;
     grid-area: img;
-    background-color: rgba(255, 217, 0, 0.206);
+    /* background-color: rgb(255, 0, 0); */
     border-radius: 150px 0 125px 0;
   }
 
   .name-pokemon-card {
     font-size: 30px;
-    padding: 0;
+    padding-top:30px;
     margin: 0;
+    font-family: 'serious1', sans-serif;
   }
 
   .x-close {
@@ -93,7 +94,6 @@
 
   .img-card {
     width: 100%;
-    box-shadow: 0 0 15px black;
     border-radius: 15px;
     max-width: 200px; 
     
@@ -183,9 +183,14 @@
   }
 
   .btn-submit {
-    width: 50%;
-    height: 15%;
-    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    background-color: #dc143c;
+    border: 3px solid#ffcc01;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'serious1', sans-serif;
     box-shadow: 2px 2px 2px black;
     cursor: pointer;
   }
@@ -255,6 +260,7 @@
     font-size: 30px;
     padding: 0;
     margin: 0;
+    font-family: 'serious1', sans-serif;
   }
 
   .x-close {

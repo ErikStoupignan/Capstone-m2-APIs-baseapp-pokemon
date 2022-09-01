@@ -7,6 +7,7 @@ import {
   addLike, getList, getComments, newComment,
 } from './modules/involvementApi.js';
 import { printDOM, createSubmitBtn } from './modules/printOnDOM.js';
+import popupBuilder from './modules/popupBuilder.js';
 
 document.body.addEventListener('click', async (e) => {
   const { id } = e.target;
@@ -17,9 +18,11 @@ document.body.addEventListener('click', async (e) => {
   const closeModalId = 'xmodal';
 
   // Say the id of the button
+  // posicion en la array:
   if (regexBtnCom.test(id)) {
     const index = id.match(regexBtnCom)[0];
     await getComments(printDOM, index);
+    popupBuilder(index);
     createSubmitBtn(index);
     document.getElementById('popUp-menu').classList.toggle('display-none');
   }
