@@ -145,6 +145,14 @@ body {
   background-color: #c22e28;
 }
 
+.dark {
+  background-color: #705848;
+}
+
+.poison {
+  background-color: #a33ea1;
+}
+
 .top-background {
   min-width: 100%;
   max-height: 50%;

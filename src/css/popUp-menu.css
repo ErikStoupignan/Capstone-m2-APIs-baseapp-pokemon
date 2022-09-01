@@ -22,7 +22,7 @@
 
 .x-close:hover {
   cursor: pointer;
-  color: rgb(0, 21, 255);
+  color: rgb(0, 14, 171);
   transform: scale(1.2);
   text-shadow: 0 0 10px rgb(7, 7, 7);
 }
@@ -59,7 +59,7 @@
     height: 95%;
   }
 
-  /* Container img and name of the pokemon */
+  /* Container img and name of the pokemon HERE IS THE BACKGROUND OF THE IMAGE */
   .card-top {
     display: flex;
     flex-direction: column;
@@ -69,7 +69,7 @@
     width: 80%;
     height: 100%;
     grid-area: img;
-    background-color: rgba(255, 217, 0, 0.206);
+    /* background-color: rgb(255, 0, 0); */
     border-radius: 150px 0 125px 0;
   }
 

@@ -5,6 +5,7 @@ import updateCounter from './modules/PokemonCounter.js';
 import cardBuilder from './modules/cardBuilder.js';
 import { getComments, newComment } from './modules/involvementApi.js';
 import { printDOM } from './modules/printOnDOM.js';
+import popupBuilder from './modules/popupBuilder.js';
 
 document.body.addEventListener('click', async (e) => {
   const { id } = e.target;
@@ -15,10 +16,14 @@ document.body.addEventListener('click', async (e) => {
   const closeModalId = 'xmodal';
 
   // Say the id of the button
+  // posicion en la array:
   if (regexBtnCom.test(id)) {
-    document.getElementById('popUp-menu').classList.toggle('display-none');
     const index = id.match(regexBtnCom)[0];
     await getComments(printDOM, index);
+    // AQUI ENTRA ERICK
+    document.getElementById('popUp-menu').classList.toggle('display-none');
+    console.log(index);
+    popupBuilder(index);
   }
 
   // Point to the x on the popUp menu
