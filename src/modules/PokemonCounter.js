@@ -1,4 +1,16 @@
 import { counter } from './DOMelements.js';
-import myArray from './Array.js';
 
-export default () => { counter.innerHTML = myArray.length; };
+const pokemonCounter = () => { 
+  const result = document.querySelectorAll('.pokemon-img');
+  return result.length;
+};
+
+const print = () => {
+  counter.innerHTML = pokemonCounter();
+}
+
+setTimeout(() => {
+  print();
+}, 800);
+
+export default pokemonCounter

@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1661999527843" clover="3.2.0">
-  <project timestamp="1661999527843" name="All files">
-    <metrics statements="17" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1" elements="22" coveredelements="11" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
-    <file name="printOnDOM.js" path="D:\repos\module 2\block 5\homepage\Capstone-m2-APIs-baseapp-pokemon\src\modules\printOnDOM.js">
-      <metrics statements="17" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
+<coverage generated="1662072343280" clover="3.2.0">
+  <project timestamp="1662072343281" name="All files">
+    <metrics statements="23" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2" elements="27" coveredelements="23" complexity="0" loc="23" ncloc="23" packages="1" files="4" classes="4"/>
+    <file name="Array.js" path="D:\repos\module 2\block 5\homepage\Capstone-m2-APIs-baseapp-pokemon\src\modules\Array.js">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+    </file>
+    <file name="DOMelements.js" path="D:\repos\module 2\block 5\homepage\Capstone-m2-APIs-baseapp-pokemon\src\modules\DOMelements.js">
+      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="PokemonCounter.js" path="D:\repos\module 2\block 5\homepage\Capstone-m2-APIs-baseapp-pokemon\src\modules\PokemonCounter.js">
+      <metrics statements="7" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="0" type="stmt"/>
-      <line num="10" count="0" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="0" type="stmt"/>
-      <line num="16" count="0" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
-      <line num="22" count="0" type="stmt"/>
-      <line num="23" count="0" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-      <line num="34" count="1" type="stmt"/>
-      <line num="35" count="1" type="stmt"/>
-      <line num="36" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+    </file>
+    <file name="counter.js" path="D:\repos\module 2\block 5\homepage\Capstone-m2-APIs-baseapp-pokemon\src\modules\counter.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
