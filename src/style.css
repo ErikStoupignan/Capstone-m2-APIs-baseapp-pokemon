@@ -42,7 +42,7 @@ body {
 
 .card {
   max-width: 30%;
-  min-width: 25%;
+  min-width: 350px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
