@@ -71,7 +71,6 @@ const toggleMute = document.getElementById('toggle-mute');
 const muteBtn = document.getElementById('mute-btn');
 let isMuted = true;
 song.volume = 0.3;
-console.log(song);
 toggleMute.addEventListener('click', () => {
   muteBtn.classList.toggle('fa-music-slash');
   muteBtn.classList.toggle('fa-music');
