@@ -211,3 +211,13 @@ footer {
   font-size: 1rem;
   font-weight: 700;
 }
+
+.counter-text {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'serious1', sans-serif;
+}
+
+#mute-btn {
+  color: rgb(0, 0, 0);
+}

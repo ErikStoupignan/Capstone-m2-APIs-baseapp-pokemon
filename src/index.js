@@ -67,10 +67,13 @@ getList();
 
 const song = new Audio(sound);
 const toggleMute = document.getElementById('toggle-mute');
+const muteBtn = document.getElementById('mute-btn');
 let isMuted = true;
 song.volume = 0.3;
 console.log(song);
 toggleMute.addEventListener('click', () => {
+  muteBtn.classList.toggle('fa-music-slash');
+  muteBtn.classList.toggle('fa-music');
   isMuted = !isMuted;
   toggleMute.style.filter = `invert(${isMuted * 1 + !isMuted * 0})`;
   song.muted = isMuted;
