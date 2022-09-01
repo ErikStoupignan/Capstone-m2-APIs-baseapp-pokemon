@@ -1,6 +1,8 @@
 import myArray from './Array.js';
 import pokemon from './PokemonClassCall.js';
-import { type, weight, height, power, name, image } from './DOMelements.js';
+import {
+  type, weight, height, power, name, image,
+} from './DOMelements.js';
 
 const popListeners = (position = 0) => {
   const pokeid = myArray[position];
@@ -12,7 +14,6 @@ const popListeners = (position = 0) => {
     weight.innerText = `Weight: ${data.weight} lbs.`;
     height.innerText = `Height: ${data.height} ft.`;
     power.innerText = `Hability: ${data.abilities[0].ability.name.toUpperCase()}`;
-    console.log(data.types[0].type.name);
     document.getElementsByClassName('card-top')[0].classList.add(data.types[0].type.name);
   });
 };
