@@ -27,6 +27,20 @@ li:nth-child(even) {
   top: 0;
 }
 
+#toggle-mute {
+  border-radius: 30px;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  background-color: #ffcc01;
+  border: 3px solid#ffcc01;
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'serious1', sans-serif;
+  box-shadow: 2px 2px 2px black;
+  cursor: pointer;
+}
+
 .display-none {
   display: none;
 }
