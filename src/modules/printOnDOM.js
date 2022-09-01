@@ -7,7 +7,7 @@ const titleComment = document.getElementById('counter-comments');
 // Comments on the element ul
 const printDOM = ((input) => {
   ulElement.innerHTML = '';
-  ulElement.innerHTML = input.map((item) => `<li>${item.creation_date} ${item.username}: ${item.comment}</li>`).join(' ');
+  ulElement.innerHTML = input.map((item) => `<li class="commit">${item.creation_date} ${item.username}: ${item.comment}</li>`).join(' ');
 });
 
 // Print if the list is empty
@@ -29,12 +29,10 @@ const createSubmitBtn = ((id) => {
 });
 
 // Counter of comments for each pokemon card
-const counterComments = ((array) => {
-  const total = array.length;
-
-  titleComment.innerHTML = `Comments (${total})`;
+const printCounterComments = ((total) => {
+  document.getElementById('counter-comments').innerHTML = `Comments (${total})`;
 });
 
 export {
-  printDOM, printListEmpty, createSubmitBtn, counterComments,
+  printDOM, printListEmpty, createSubmitBtn, printCounterComments,
 };
