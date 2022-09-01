@@ -153,6 +153,34 @@ body {
   background-color: #a33ea1;
 }
 
+.ground {
+  background-color: #e2bf65;
+}
+
+.flying {
+  background-color: #a98ff3;
+}
+
+.ghost {
+  background-color: #735797;
+}
+
+.ice {
+  background-color: #aefef6;
+}
+
+.fair {
+  background-color: #d5d5d5;
+}
+
+.dragon {
+  background-color: #7366d6;
+}
+
+.steel {
+  background-color: #b7b7ce;
+}
+
 .top-background {
   min-width: 100%;
   max-height: 50%;
