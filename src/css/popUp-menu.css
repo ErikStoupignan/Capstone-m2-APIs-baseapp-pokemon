@@ -75,8 +75,9 @@
 
   .name-pokemon-card {
     font-size: 30px;
-    padding: 0;
+    padding-top:30px;
     margin: 0;
+    font-family: 'serious1', sans-serif;
   }
 
   .x-close {
@@ -182,9 +183,14 @@
   }
 
   .btn-submit {
-    width: 50%;
-    height: 15%;
-    font-size: 25px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+    background-color: #dc143c;
+    border: 3px solid#ffcc01;
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'serious1', sans-serif;
     box-shadow: 2px 2px 2px black;
     cursor: pointer;
   }
@@ -254,6 +260,7 @@
     font-size: 30px;
     padding: 0;
     margin: 0;
+    font-family: 'serious1', sans-serif;
   }
 
   .x-close {
