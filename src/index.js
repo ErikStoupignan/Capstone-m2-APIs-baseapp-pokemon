@@ -9,6 +9,7 @@ import counterComments from './modules/counter.js';
 import {
   addLike, getList, getComments, newComment,
 } from './modules/involvementApi.js';
+import sound from './audio/pokemon.sound.mp3';
 
 document.body.addEventListener('click', async (e) => {
   const { id } = e.target;
@@ -63,3 +64,20 @@ document.body.addEventListener('click', async (e) => {
 updateCounter();
 cardBuilder();
 getList();
+
+const song = new Audio(sound);
+const toggleMute = document.getElementById('toggle-mute');
+let isMuted = true;
+song.volume = 0.3;
+console.log(song);
+toggleMute.addEventListener('click', () => {
+  isMuted = !isMuted;
+  toggleMute.style.filter = `invert(${isMuted * 1 + !isMuted * 0})`;
+  song.muted = isMuted;
+});
+
+document.addEventListener('mousemove', () => {
+  song.play();
+});
+
+window.addEventListener('load', () => { dispatchEvent(new Event('click')); song.loop = true; });
