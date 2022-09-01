@@ -33,6 +33,7 @@ document.body.addEventListener('click', async (e) => {
 
   // Point to the x on the popUp menu
   if (id === closeModalId) {
+    document.getElementById('style-card').classList = 'card-top';
     document.getElementById('popUp-menu').classList.toggle('display-none');
   }
 
