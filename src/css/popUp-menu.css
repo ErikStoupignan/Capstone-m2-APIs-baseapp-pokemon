@@ -22,9 +22,9 @@
 
 .x-close:hover {
   cursor: pointer;
-  color: rgb(0, 21, 255);
+  color: rgb(0, 0, 0);
   transform: scale(1.2);
-  text-shadow: 0 0 10px rgb(7, 7, 7);
+  text-shadow: 0 0 20px rgb(247, 4, 4);
 }
 
 /* Desktop version */
@@ -80,11 +80,15 @@
   }
 
   .x-close {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    font-size: 30px;
-    font-weight: bold;
-    right: 20px;
-    top: 10px;
+    font-size: 45px;
+    right: 15px;
+    top: 15px;
   }
 
   .img-card {

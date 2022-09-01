@@ -7,10 +7,7 @@
     <title>The Pokedex</title>
 
     <!-- Link to FontAwesome page -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" 
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
-    crossorigin="anonymous"/>
-
+    <script src="https://kit.fontawesome.com/e7a5915a5c.js" crossorigin="anonymous" defer></script>
 <script defer src="main.js"></script></head>
 <body>
     <header>
@@ -43,7 +40,8 @@
 
             <div class="container-wrap">
                     <div class="card-top">
-                        <span id="xmodal" class="x-close">&#88;</span>
+                        
+                        <i id="xmodal" class="fa-sharp fa-solid fa-circle-xmark x-close"></i>
                         <img class="img-card" src="https://memegenerator.net/img/instances/85512796/vamo-a-calmarno.jpg" alt="Vamo a calmarno">
                         <h2 class="name-pokemon-card">Squirtle</h2>
                     </div>
@@ -56,17 +54,12 @@
                     </ul>
                     
                     <div class="comments-section">
-                        <span class="title-comments">Comments (2)</span>
-                        <ul id="comments-list" class="comments-list">
-                        </ul>
+                        <span id="counter-comments" class="title-comments">Comments (2)</span>
+                        <ul id="comments-list" class="comments-list"></ul>
                     </div>
                 
 
-                    <form class="form-comments" action="#">
-                        <h3 class="form-title">Add a comment</h3>
-                        <input id="input-text" class="input-text" placeholder="Your name" type="text" required>
-                        <input id="input-comment" class="input-comment" placeholder="Your insights" type="text" required>
-                        <button id="btnSubmit1" class="btn-submit" type="button">Comment</button>
+                    <form id="form-popUP-Menu" class="form-comments" action="#">
                     </form>
             </div>
 

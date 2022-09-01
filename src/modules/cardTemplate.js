@@ -4,12 +4,18 @@ const cardConstructor = (name, img, index) => {
                 <div class="likes">
                     <div class="text-div">
                         <p class="pokemon-text">${name}</p>
-                        <div class="pokemon-likes">
+                        <div id=likes-container${index} class="pokemon-likes">
                             <p class="pokemon-text">Likes: </p>
-                            <p class="pokemon-text">100</p>
+                            <p id=counterLikes${index} class="pokemon-text">100</p>
                         </div>
                     </div>
+
                     <i id="likeIcon${index}" class="far fa-thumbs-up like-btn"></i>
+
+                    <div id='icon-pokeball${index}' class="pokeball display-none">
+                        <div class="pokeball__button"></div>
+                    </div>
+                  
                 </div>
                 <button id="button${index}" type="submit" class="comment-btn">Comment</button>`;
   return htmlElement;
