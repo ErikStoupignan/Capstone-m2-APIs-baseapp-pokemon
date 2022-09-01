@@ -7,6 +7,12 @@
 
 li {
   font-family: 'serious1', sans-serif;
+  font-style: italic;
+}
+
+li:nth-child(even) {
+  color: #ffcc01;
+  background-color: #dc143c;
 }
 
 .popUp-comments {
@@ -194,7 +200,6 @@ li {
   .input-text {
     width: 75%;
     height: 15%;
-    color: #fff;
     font-family: 'serious1', sans-serif;
     font-size: 1.5rem;
     border-radius: 15px;
