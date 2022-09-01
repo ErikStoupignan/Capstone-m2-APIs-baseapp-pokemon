@@ -3,8 +3,10 @@ import './css/pokeball.css';
 import './css/popUp-menu.css';
 import updateCounter from './modules/PokemonCounter.js';
 import cardBuilder from './modules/cardBuilder.js';
-import { getComments, newComment } from './modules/involvementApi.js';
-import { printDOM } from './modules/printOnDOM.js';
+import {
+  addLike, getList, getComments, newComment,
+} from './modules/involvementApi.js';
+import { printDOM, createSubmitBtn } from './modules/printOnDOM.js';
 import popupBuilder from './modules/popupBuilder.js';
 
 document.body.addEventListener('click', async (e) => {
@@ -20,10 +22,9 @@ document.body.addEventListener('click', async (e) => {
   if (regexBtnCom.test(id)) {
     const index = id.match(regexBtnCom)[0];
     await getComments(printDOM, index);
-    // AQUI ENTRA ERICK
-    document.getElementById('popUp-menu').classList.toggle('display-none');
-    console.log(index);
     popupBuilder(index);
+    createSubmitBtn(index);
+    document.getElementById('popUp-menu').classList.toggle('display-none');
   }
 
   // Point to the x on the popUp menu
@@ -53,10 +54,20 @@ document.body.addEventListener('click', async (e) => {
   // Read the like Icon
   if (regexLike.test(id)) {
     const like = document.getElementById(`${id}`);
-    like.style.color = 'red';
-    console.log('Like en la tarjeta número:', id, like);
+    like.style.visibility = 'hidden';
+
+    const index = id.match(regexLike)[0];
+
+    const pokeball = document.getElementById(`icon-pokeball${index}`);
+    pokeball.classList.remove('display-none');
+
+    await addLike(id);
+    await getList();
+
+    console.log('Like al pokemon número:', id);
   }
 });
 
 updateCounter();
 cardBuilder();
+getList();
