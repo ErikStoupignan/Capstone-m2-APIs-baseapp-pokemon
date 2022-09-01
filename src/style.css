@@ -38,6 +38,9 @@ body {
   color: #fff;
   padding-left: 10px;
   padding-right: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'serious1', sans-serif;
 }
 
 .card {
@@ -210,4 +213,8 @@ footer {
 .copyright {
   font-size: 1rem;
   font-weight: 700;
+}
+
+#mute-btn {
+  color: rgb(0, 0, 0);
 }

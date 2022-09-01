@@ -9,6 +9,7 @@ import counterComments from './modules/counter.js';
 import {
   addLike, getList, getComments, newComment,
 } from './modules/involvementApi.js';
+import sound from './audio/pokemon.sound.mp3';
 
 document.body.addEventListener('click', async (e) => {
   const { id } = e.target;
@@ -32,6 +33,7 @@ document.body.addEventListener('click', async (e) => {
 
   // Point to the x on the popUp menu
   if (id === closeModalId) {
+    document.getElementById('style-card').classList = 'card-top';
     document.getElementById('popUp-menu').classList.toggle('display-none');
   }
 
@@ -63,3 +65,22 @@ document.body.addEventListener('click', async (e) => {
 updateCounter();
 cardBuilder();
 getList();
+
+const song = new Audio(sound);
+const toggleMute = document.getElementById('toggle-mute');
+const muteBtn = document.getElementById('mute-btn');
+let isMuted = true;
+song.volume = 0.3;
+toggleMute.addEventListener('click', () => {
+  muteBtn.classList.toggle('fa-music-slash');
+  muteBtn.classList.toggle('fa-music');
+  isMuted = !isMuted;
+  toggleMute.style.filter = `invert(${isMuted * 1 + !isMuted * 0})`;
+  song.muted = isMuted;
+});
+
+document.addEventListener('mousemove', () => {
+  song.play();
+});
+
+window.addEventListener('load', () => { dispatchEvent(new Event('click')); song.loop = true; });

@@ -10,3 +10,4 @@ export const height = document.getElementById('length');
 export const power = document.getElementById('power');
 export const name = document.getElementById('pokemon-name');
 export const image = document.getElementById('popup-img');
+export const toggleMute = document.getElementById('toggle-mute');
