@@ -4,6 +4,16 @@
 
 ## Screenshots
 
+### Homepage
+![image](https://user-images.githubusercontent.com/106561762/188058792-77f92e27-a2b6-408a-a74e-03684db4912f.png)
+
+### Comments popUp
+![image](https://user-images.githubusercontent.com/106561762/188058998-a0272764-a998-4323-bb36-bbd3d57642dc.png)
+
+## Demonstration video download link 
+
+<a href="https://drive.google.com/file/d/1xemP2WHQq9O1tdSDDeZbjstXs0efAo5r/view?usp=sharing">Go to the video</a>
+
 ## Built With
 
 - HTML
