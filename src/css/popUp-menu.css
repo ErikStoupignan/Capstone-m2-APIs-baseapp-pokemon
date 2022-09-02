@@ -105,8 +105,12 @@ li:nth-child(even) {
     width: 80%;
     height: 100%;
     grid-area: img;
-    /* background-color: rgb(255, 0, 0); */
     border-radius: 150px 0 125px 0;
+    cursor: pointer;
+  }
+
+  .card-top:hover {
+    box-shadow: 0 0 15px white;
   }
 
   .name-pokemon-card {
@@ -160,6 +164,11 @@ li:nth-child(even) {
     list-style: none;
     background: linear-gradient(to right, rgb(255, 0, 0), rgb(226, 151, 59));
     padding: 5px 0 5px 15px;
+    cursor: pointer;
+  }
+
+  .features-card li:hover {
+    box-shadow: 0 0 5px white;
   }
 
   /* Comments section */
@@ -184,11 +193,16 @@ li:nth-child(even) {
     max-height: 250px;
     list-style: none;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .comments-list li {
     font-size: 20px;
     color: #fff;
+  }
+
+  .comments-list li:hover {
+    transform: scale(1.05);
   }
 
   /* form to add comments */
@@ -236,6 +250,12 @@ li:nth-child(even) {
     font-size: 2rem;
     font-family: 'serious1', sans-serif;
     box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+  }
+
+  .btn-submit:hover {
+    transform: scale(1.01);
+    background-color: #be113a;
     cursor: pointer;
   }
 
@@ -403,6 +423,12 @@ li:nth-child(even) {
     height: 25%;
     font-size: 25px;
     box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+  }
+
+  .btn-submit:hover {
+    transform: scale(1.01);
+    background-color: #be113a;
     cursor: pointer;
   }
 
