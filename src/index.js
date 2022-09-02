@@ -25,10 +25,12 @@ document.body.addEventListener('click', async (e) => {
     await getComments(printDOM, index);
     popupBuilder(index);
     createSubmitBtn(index);
-    document.getElementById('popUp-menu').classList.toggle('display-none');
+
     setTimeout(() => {
       printCounterComments(counterComments());
     }, 50);
+
+    document.getElementById('popUp-menu').classList.toggle('display-none');
   }
 
   // Point to the x on the popUp menu
