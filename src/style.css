@@ -81,6 +81,13 @@ body {
   color: #fff;
   font-size: 2rem;
   font-family: 'serious1', sans-serif;
+  cursor: pointer;
+}
+
+.comment-btn:hover {
+  transform: scale(1.01);
+  background-color: #be113a;
+  cursor: pointer;
 }
 
 .pokemon-text {
@@ -217,4 +224,15 @@ footer {
 
 #mute-btn {
   color: rgb(0, 0, 0);
+}
+
+.fa-thumbs-up {
+  cursor: pointer;
+  transform: color;
+}
+
+.fa-thumbs-up:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  color: red;
 }
