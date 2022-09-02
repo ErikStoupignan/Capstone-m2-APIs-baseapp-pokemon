@@ -1,6 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone 2 - API's Webapp
+# Capstone 2 - API's Webapp 
+
+## Screenshots
 
 ## Built With
 
@@ -8,6 +10,7 @@
 - CSS
 - JS
 - Webpack
+- Jest
 
 ## Live Demo
 
@@ -29,7 +32,7 @@ To get a local copy up and running it, follow these simple steps.
 
 2. Copy the following link and paste it into your VSCode or your terminal:
 
-> Link to clone it. Paste here <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> https://github.com/ErikStoupignan/Capstone-m2-APIs-baseapp-pokemon.git
 
 3. Store it in the file you created before.
 
@@ -57,7 +60,7 @@ For educational purpose only, use it as a guideline.
 
 - GitHub: [@ErikStoupignan](https://github.com/ErikStoupignan)
 - Twitter: [@Erik_Stoupignan](https://twitter.com/Erik_Stoupignan)
-- LinkedIn: [Erik Stoupignan Sánchez Beltrán](https://www.linkedin.com/in/erik-stoupignan-s%C3%A1nchez-beltr%C3%A1n-393180238/)
+- LinkedIn: [Erik Stoupignan Sánchez Beltrán](https://www.linkedin.com/in/erik-s%C3%A1nchez-beltr%C3%A1n-393180238/)
 
 ## Authors
 <a href="MIT.md">License MIT.md</a>
