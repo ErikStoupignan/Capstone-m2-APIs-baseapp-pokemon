@@ -1,7 +1,7 @@
-// Conunter comments
+// Counter comments
 const counterComments = () => {
-  const x = document.querySelectorAll('.commit');
-  return x.length;
+  const result = document.querySelectorAll('.commit');
+  return result.length;
 };
 
 export default counterComments;

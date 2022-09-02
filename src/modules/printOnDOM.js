@@ -30,7 +30,7 @@ const createSubmitBtn = ((id) => {
 
 // Counter of comments for each pokemon card
 const printCounterComments = ((total) => {
-  document.getElementById('counter-comments').innerHTML = `Comments (${total})`;
+  document.getElementById('counter-comments').innerHTML = `Comments ( ${total} )`;
 });
 
 export {

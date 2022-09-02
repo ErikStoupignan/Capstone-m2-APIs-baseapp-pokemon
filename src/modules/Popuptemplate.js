@@ -6,7 +6,7 @@ const popupConstructor = (name, img, type, weight,
             <div class="container-wrap">
                     <div class="card-top ${type}">
                         <span id="xmodal" class="x-close">&#88;</span>
-                        <img class="img-card" src="${img}" alt="Vamo a calmarno">
+                        <img class="img-card" src="${img}" alt="picture of ${name}">
                         <h2 class="name-pokemon-card">${name}</h2>
                     </div>
 
@@ -18,7 +18,7 @@ const popupConstructor = (name, img, type, weight,
                     </ul>
                     
                     <div class="comments-section">
-                        <span class="title-comments">Comments (4)</span>
+                        <span class="title-comments">Comments</span>
                         <ul id="comments-list" class="comments-list">
                         </ul>
                     </div>

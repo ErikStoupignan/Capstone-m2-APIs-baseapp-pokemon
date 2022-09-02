@@ -6,7 +6,7 @@ const cardConstructor = (name, img, index) => {
                         <p class="pokemon-text">${name}</p>
                         <div id=likes-container${index} class="pokemon-likes">
                             <p class="pokemon-text">Likes: </p>
-                            <p id=counterLikes${index} class="pokemon-text">100</p>
+                            <p id=counterLikes${index} class="pokemon-text"> 0 </p>
                         </div>
                     </div>
 
