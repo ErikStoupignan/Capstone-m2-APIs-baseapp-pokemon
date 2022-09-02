@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pokedex</title>
+
+    <!-- Link to FontAwesome page -->
+    <script src="https://kit.fontawesome.com/e7a5915a5c.js" crossorigin="anonymous" defer></script>
+<script defer src="main.js"></script></head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="navbar-container">
+                <a href="index.html" id="navbar-logo">
+                    <img id="nav-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon Logo">
+                </a>
+                <button id="toggle-mute" type="button" class="btn"><i id="mute-btn" class="fa-solid fa-volume-xmark"></i></button>
+                <div id="counter-nav">
+                    <h2 class="counter-text" id="poke-counter"> Number of Pokemons:</h2>
+                    <h2 class="counter-text" id="counter">0</h2>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="main-container">
+        </div>
+    </main>
+    
+    <footer>
+        <p class="copyright">All right reserveded ©</p>
+        <p class="copyright">Pokemon © is property of The Pokémon Company International, all the rights are reserved, this website is only for educational propourses.</p>
+    </footer>
+
+    <!-- PopUp Window -->
+    <section id="popUp-menu" class="popUp-comments display-none">
+        <div class="container-card">
+            <div class="container-wrap">
+                    <div class="card-top" id="style-card">
+                        <i id="xmodal" class="fa-sharp fa-solid fa-circle-xmark x-close"></i>
+                        <img class="img-card" id="popup-img" src="https://memegenerator.net/img/instances/85512796/vamo-a-calmarno.jpg" alt="">
+                        <h2 class="name-pokemon-card" id="pokemon-name">Squirtle</h2>
+                    </div>
+
+                    <ul class="features-card">
+                        <li id="type">Type:</li>
+                        <li id="weight">Weight:</li>
+                        <li id="length">Length:</li>
+                        <li id="power">Hability:</li>
+                    </ul>
+                    
+                    <div class="comments-section">
+                        <span id="counter-comments" class="title-comments">Comments</span>
+                        <ul id="comments-list" class="comments-list"></ul>
+                    </div>
+                
+
+                    <form id="form-popUP-Menu" class="form-comments" action="#">
+                    </form>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
