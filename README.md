@@ -24,7 +24,7 @@
 
 ## Live Demo
 
-<a href="#">Open my project</a>
+<a href="https://erikstoupignan.github.io/Capstone-m2-APIs-baseapp-pokemon/">Open my project</a>
 
 ## Getting Started
 
