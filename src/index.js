@@ -19,7 +19,6 @@ document.body.addEventListener('click', async (e) => {
   const closeModalId = 'xmodal';
 
   // Say the id of the button
-  // posicion en la array:
   if (regexBtnCom.test(id)) {
     const index = id.match(regexBtnCom)[0];
     await getComments(printDOM, index);
@@ -28,9 +27,8 @@ document.body.addEventListener('click', async (e) => {
 
     setTimeout(() => {
       printCounterComments(counterComments());
+      document.getElementById('popUp-menu').classList.toggle('display-none');
     }, 50);
-
-    document.getElementById('popUp-menu').classList.toggle('display-none');
   }
 
   // Point to the x on the popUp menu
