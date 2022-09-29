@@ -1,6 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone 2 - API's Webapp
+# Capstone 2 - API's Webapp 
+
+## Screenshots
+
+### Homepage
+![image](https://user-images.githubusercontent.com/106561762/188058792-77f92e27-a2b6-408a-a74e-03684db4912f.png)
+
+### Comments popUp
+![image](https://user-images.githubusercontent.com/106561762/188058998-a0272764-a998-4323-bb36-bbd3d57642dc.png)
+
+## Demonstration video link 
+
+<a href="https://drive.google.com/file/d/1xemP2WHQq9O1tdSDDeZbjstXs0efAo5r/view?usp=sharing">Go to the video</a>
 
 ## Built With
 
@@ -8,10 +20,11 @@
 - CSS
 - JS
 - Webpack
+- Jest
 
 ## Live Demo
 
-<a href="#">Open my project</a>
+<a href="https://erikstoupignan.github.io/Capstone-m2-APIs-baseapp-pokemon/">Open my project</a>
 
 ## Getting Started
 
@@ -29,7 +42,7 @@ To get a local copy up and running it, follow these simple steps.
 
 2. Copy the following link and paste it into your VSCode or your terminal:
 
-> Link to clone it. Paste here <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+> https://github.com/ErikStoupignan/Capstone-m2-APIs-baseapp-pokemon.git
 
 3. Store it in the file you created before.
 
@@ -57,7 +70,7 @@ For educational purpose only, use it as a guideline.
 
 - GitHub: [@ErikStoupignan](https://github.com/ErikStoupignan)
 - Twitter: [@Erik_Stoupignan](https://twitter.com/Erik_Stoupignan)
-- LinkedIn: [Erik Stoupignan Sánchez Beltrán](https://www.linkedin.com/in/erik-stoupignan-s%C3%A1nchez-beltr%C3%A1n-393180238/)
+- LinkedIn: [Erik Stoupignan Sánchez Beltrán](https://www.linkedin.com/in/erik-s%C3%A1nchez-beltr%C3%A1n-393180238/)
 
 ## Authors
 <a href="MIT.md">License MIT.md</a>
